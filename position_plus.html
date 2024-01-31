@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positionplus</title>
+    <style>
+        .vertical {
+            height: 400px;
+            width: 40px;
+            background-color: red;
+            position: relative;
+            left: 200px;
+            z-index: 1;
+        }
+        .horizontal {
+            height: 40px;
+            width: 450px;
+            background-color: black;
+            position: absolute;
+            z-index: -1;
+             top: 200px;;
+        }
+    </style>
+</head>
+<body>
+    <div class="vertical"></div>
+    <div class="horizontal"></div>
+</body>
+</html>
